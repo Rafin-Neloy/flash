@@ -15,14 +15,7 @@
    glVertex2f(-1,-1);
      glVertex2f(1,-1);
     glVertex2f(1,1);
-     glEnd();
 
-      glBegin(GL_LINES);
-glColor3ub(102,0,51);
-glVertex2f(-1,0);
-glVertex2f(1,0);
-glColor3ub(102,255,102);
-glVertex2f(0,1);
 glVertex2f(0,-1);
 glEnd();
 
