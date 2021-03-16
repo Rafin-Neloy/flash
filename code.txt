@@ -9,26 +9,6 @@
 
 
 
-// Handler for window-repaint event. Call back when the window first appears and
-void Idle()
-{
-    glutPostRedisplay();//// marks the current window as needing to be redisplayed
-}
-
-
-
-
-void display() {
-    glClearColor(0,0,0,1); // Set background color to black and opaque
-    glClear(GL_COLOR_BUFFER_BIT);         // Clear the color buffer (background)
- glLineWidth(2);
-
-
-
-
-
-
-
  glBegin(GL_QUADS);
    glColor3ub(51,153,255);
      glVertex2f(-1,1);
